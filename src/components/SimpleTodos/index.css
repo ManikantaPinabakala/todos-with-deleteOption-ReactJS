@@ -1,0 +1,44 @@
+.main-bg-container {
+  min-height: 100vh;
+  background-color: #ffc2a0;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todos-bg-container {
+  background-color: #ffffff;
+  height: 90%;
+  padding: 20px 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+.todos-heading {
+  color: #ff8542;
+  font-size: 45px;
+  text-align: center;
+}
+
+.todo-list {
+  padding-left: 0;
+  width: 80%;
+}
+
+@media screen and (max-width: 767px) {
+  .todos-bg-container {
+    width: 100%;
+  }
+
+  .todos-heading {
+    font-size: 36px;
+  }
+
+  .todo-list {
+    width: 90%;
+  }
+}
